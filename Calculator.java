@@ -14,6 +14,8 @@ class Calculator {
         System.out.println("+------------------------+");
         System.out.println("| 4: for Division        |");
         System.out.println("+------------------------+");
+        System.out.println("| 5: for Remainder       |");
+        System.out.println("+------------------------+");
         int c = Integer.parseInt(br.readLine());
         switch(c) {
             case 1 : System.out.println("Addition = " + (a+b));
@@ -23,6 +25,8 @@ class Calculator {
             case 3 : System.out.println("Multiplication = " + (a*b));
                      break;
             case 4 : System.out.println("Division = " + (a/b));
+                     break;
+            case 5 : System.out.println("Remainder = " + (a%b));
                      break;
             default : System.out.println("Invalid Number Enter a Number Between 1&4"); 
         }
