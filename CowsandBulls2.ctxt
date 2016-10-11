@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ input()
+comment1.params=num
+comment1.target=boolean\ isValid(int)
+comment2.params=num
+comment2.target=int[]\ seperate(int)
+comment3.params=
+comment3.target=int\ getGuess()
+comment4.params=n\ g
+comment4.target=void\ getBulls(int[],\ int[])
+comment5.params=n\ g
+comment5.target=void\ getCows(int[],\ int[])
+comment6.params=
+comment6.target=void\ tabulate()
+comment7.params=
+comment7.target=void\ main()
+numComments=8

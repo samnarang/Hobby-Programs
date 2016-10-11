@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Line()
+comment1.params=point1\ point2
+comment1.target=Line(Point,\ Point)
+numComments=2

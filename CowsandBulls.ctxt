@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ input()
+comment1.params=min\ max
+comment1.target=int\ randomWithRange(int,\ int)
+comment10.params=
+comment10.target=void\ tabulate()
+comment11.params=
+comment11.target=void\ main()
+comment2.params=num\ player
+comment2.target=boolean\ isValid(int,\ int)
+comment3.params=num
+comment3.target=int[]\ separate(int)
+comment4.params=player
+comment4.target=int\ getGuess(int)
+comment5.params=
+comment5.target=int\ getAutomaticGuess()
+comment6.params=num
+comment6.target=boolean\ satisfiesConditions(int)
+comment7.params=n\ g
+comment7.target=int\ getCows(int[],\ int[])
+comment8.params=n\ g
+comment8.target=int\ getBulls(int[],\ int[])
+comment9.params=
+comment9.target=void\ leaveSpace()
+numComments=12
