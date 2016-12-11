@@ -41,6 +41,153 @@
 <p>I faced a lot of difficulties when I was using Git. I didn't know any of the commands and so I had to search them on Google. I still am not quite used to using it but it is a pretty useful tool if you learn to use it properly.</p>
 
 <h3>
+<a id="commands-in-git" class="anchor" href="#commands-in-git" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands in Git</h3>
+
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>Command</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tell Git who you are</td>
+<td>git config --global user.name "Sam Narang"</td>
+</tr>
+<tr>
+<td></td>
+<td>git config --global user.email <a href="mailto:sam@example.com">sam@example.com</a>
+</td>
+</tr>
+<tr>
+<td>Create a new local repository</td>
+<td>git init</td>
+</tr>
+<tr>
+<td>Create a working copy of a local repository</td>
+<td>git clone /path/to/repository</td>
+</tr>
+<tr>
+<td>For a remote server, use</td>
+<td>git clone username@host:/path/to/repository</td>
+</tr>
+<tr>
+<td>Add one or more files to staging (index)</td>
+<td>git add </td>
+</tr>
+<tr>
+<td></td>
+<td>git add *</td>
+</tr>
+<tr>
+<td>Commit changes to head (but not yet to the remote repository)</td>
+<td>git commit -m "Commit message"</td>
+</tr>
+<tr>
+<td>Commit any files you've added with git add, and also commit any files you've changed since then</td>
+<td>git commit -a</td>
+</tr>
+<tr>
+<td>Send changes to the master branch of your remote repository</td>
+<td>git push origin master</td>
+</tr>
+<tr>
+<td>Status  List the files you've changed and those you still need to add or commit</td>
+<td>git status</td>
+</tr>
+<tr>
+<td>If you haven't connected your local repository to a remote server, add the server to be able to push to it</td>
+<td>git remote add origin </td>
+</tr>
+<tr>
+<td>List all currently configured remote repositories</td>
+<td>git remote -v</td>
+</tr>
+<tr>
+<td>Create a new branch and switch to it</td>
+<td>git checkout -b </td>
+</tr>
+<tr>
+<td>Switch from one branch to another</td>
+<td>git checkout </td>
+</tr>
+<tr>
+<td>List all the branches in your repo, and also tell you what branch you're currently in</td>
+<td>git branch</td>
+</tr>
+<tr>
+<td>Delete the feature branch</td>
+<td>git branch -d </td>
+</tr>
+<tr>
+<td>Push the branch to your remote repository, so others can use it</td>
+<td>git push origin </td>
+</tr>
+<tr>
+<td>Push all branches to your remote repository</td>
+<td>git push --all origin</td>
+</tr>
+<tr>
+<td>Delete a branch on your remote repository</td>
+<td>git push origin :</td>
+</tr>
+<tr>
+<td>Fetch and merge changes on the remote server to your working directory</td>
+<td>git pull</td>
+</tr>
+<tr>
+<td>To merge a different branch into your active branch</td>
+<td>git merge </td>
+</tr>
+<tr>
+<td>View all the merge conflicts</td>
+<td>git diff</td>
+</tr>
+<tr>
+<td>View the conflicts against the base file</td>
+<td>git diff --base </td>
+</tr>
+<tr>
+<td>Preview changes, before merging</td>
+<td>git diff  </td>
+</tr>
+<tr>
+<td>After you have manually resolved any conflicts, you mark the changed file</td>
+<td>git add </td>
+</tr>
+<tr>
+<td>You can use tagging to mark a significant changeset, such as a release</td>
+<td>git tag 1.0.0 </td>
+</tr>
+<tr>
+<td>CommitId is the leading characters of the changeset ID, up to 10, but must be unique. Get the ID using</td>
+<td>git log</td>
+</tr>
+<tr>
+<td>Push all tags to remote repository</td>
+<td>git push --tags origin</td>
+</tr>
+<tr>
+<td>If you mess up, you can replace the changes in your working tree with the last content in head. Changes already added to the index, as well as new files, will be kept</td>
+<td>git checkout -- </td>
+</tr>
+<tr>
+<td>Instead, to drop all your local changes and commits, fetch the latest history from the server and point your local master branch at it, do this</td>
+<td>git fetch origin</td>
+</tr>
+<tr>
+<td></td>
+<td>git reset --hard origin/master</td>
+</tr>
+<tr>
+<td>Search the working directory for foo()</td>
+<td>git grep "foo()"</td>
+</tr>
+</tbody>
+</table>
+
+<h3>
 <a id="other-projects" class="anchor" href="#other-projects" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Other Projects</h3>
 
 <p>Since I am new to GitHub, this is my first project. However, I will be working on some new projects in the future. </p>
